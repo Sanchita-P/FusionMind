@@ -1,5 +1,4 @@
-# FusionMind
-Improving question and answering with external context fusion by using language models and knowledge graphs
+README.md
 
 ## APPROACH 1 : LM-ONLY QA MODEL
 
@@ -10,7 +9,7 @@ Improving question and answering with external context fusion by using language 
 ## Step 1 : COMPUTE USED ##
 2 RTX-6000 GPUs [Cuda 11.7.0]
 
-## Step 2A : CREATE ENVIRONMENT ##
+## Step 2 : CREATE ENVIRONMENT ##
 conda create -n qagnn python=3.7
 source activate qagnn
 pip install torch -f https://download.pytorch.org/whl/torch_stable.html
@@ -19,7 +18,7 @@ pip install nltk spacy==2.1.6
 python -m spacy download en
 pip install torch-sparse torch-geometric torch-scatter -f https://pytorch-geometric.com/whl/torch-{torch.__version__}.html
 
-## Step 2B : DOWNLOAD RAW DATA ##
+## Step 4 : DOWNLOAD RAW DATA ##
 ./ download_raw_data.sh
 
 ## Step 3 : CREATE PREPROCESSED DATA ##
@@ -30,3 +29,4 @@ python preprocess.py
 
 - Check saved_model folder for epoch-wise predictions on test and metric csv
 - Check logs/ for training status.
+
