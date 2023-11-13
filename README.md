@@ -11,7 +11,7 @@ The result of the project is a question-answering system based on a QA-GNN archi
 
 ## APPROACH 1 : LM-ONLY QA MODEL ##
 
-![lm_only](https://github.com/Sanchita-P/FusionMind/tree/main/Images/Method-1.png)
+![Method-1](https://github.com/Sanchita-P/FusionMind/assets/47073198/33515a2c-3888-4033-89cc-28dc57129582)
 <p align="center">
 Fig 1: LM Architecture
 </p>
@@ -21,7 +21,7 @@ This approach only utilizes LM models for question-answering problems.
 
 ## APPROACH 2 : QAGNN [LM+KG QA MODEL] ##
 
-![lm_only](https://github.com/Sanchita-P/FusionMind/tree/main/Images/Method-2.png)
+![Method-2](https://github.com/Sanchita-P/FusionMind/assets/47073198/5df2f8fb-35ba-4400-bc18-0a3962854d3a)
 <p align="center">
 Fig 2: QA-GNN Architecture
 </p>
@@ -61,12 +61,12 @@ python preprocess.py
 
 Below are few examples highlighting the impact of incorporating external context (knowledge facts) in question-answering task. The final model is a QA-GNN with additional external context.
 
-![lm_only](https://github.com/Sanchita-P/FusionMind/tree/main/Images/Example-1.png)
+![Example-1](https://github.com/Sanchita-P/FusionMind/assets/47073198/91e11df3-d5ab-4d55-85e3-013d0a60b9a0)
 <p align="center">
 Fig 3: Sample Question 1 deep-dive
 </p>
 
-![lm_only](https://github.com/Sanchita-P/FusionMind/tree/main/Images/Example-2.png)
+![Example-2](https://github.com/Sanchita-P/FusionMind/assets/47073198/6cdd21aa-5eab-4fe3-8b66-561802f1247c)
 <p align="center">
 Fig 4: Sample Question 2 deep-dive
 </p>
