@@ -11,7 +11,7 @@ The result of the project is a question-answering system based on a QA-GNN archi
 
 ## APPROACH 1 : LM-ONLY QA MODEL ##
 
-![lm_only](Media/LLM.png)
+![lm_only](Images/Method-1.png)
 <p align="center">
 Fig 1: LM Architecture
 </p>
@@ -21,7 +21,7 @@ This approach only utilizes LM models for question-answering problems.
 
 ## APPROACH 2 : QAGNN [LM+KG QA MODEL] ##
 
-![lm_only](Media/QAGNN.png)
+![lm_only](Images/Method-2.png)
 <p align="center">
 Fig 2: QA-GNN Architecture
 </p>
@@ -61,12 +61,12 @@ python preprocess.py
 
 Below are few examples highlighting the impact of incorporating external context (knowledge facts) in question-answering task. The final model is a QA-GNN with additional external context.
 
-![lm_only](Media/Example1.png)
+![lm_only](Images/Example-1.png)
 <p align="center">
 Fig 3: Sample Question 1 deep-dive
 </p>
 
-![lm_only](Media/Example2.png)
+![lm_only](Images/Example-2.png)
 <p align="center">
 Fig 4: Sample Question 2 deep-dive
 </p>
